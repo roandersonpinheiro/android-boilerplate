@@ -68,26 +68,25 @@ dependencies {
     implementation("androidx.collection:collection-ktx:1.2.0")
     implementation("androidx.palette:palette-ktx:1.0.0")
 
-    //Navigation
+    // Navigation
     implementation("androidx.navigation:navigation-runtime-ktx:2.7.3")
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.3")
 
-    //Lifecycle
+    // Lifecycle
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
 
-    //Coroutines
+    // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
 
-
-    //Retrofit & OkHttp
+    // Retrofit & OkHttp
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
-    //MockWebServer
+    // MockWebServer
     testImplementation("com.squareup.okhttp3:mockwebserver:4.11.0")
 
     // Room
@@ -97,7 +96,7 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:2.5.2")
     androidTestImplementation("androidx.room:room-testing:2.5.2")
 
-    //Moshi (JSON mapping)
+    // Moshi (JSON mapping)
     implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
     implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
 
@@ -105,7 +104,6 @@ dependencies {
     implementation("io.insert-koin:koin-core:3.5.0")
     implementation("io.insert-koin:koin-annotations:1.0.0-beta-1")
     ksp("io.insert-koin:koin-ksp-compiler:1.0.0-beta-1")
-
 
     implementation("androidx.work:work-runtime-ktx:2.8.1")
 
@@ -122,7 +120,7 @@ dependencies {
     testImplementation("io.insert-koin:koin-test:3.5.0")
     testImplementation("io.insert-koin:koin-test-junit4:3.5.0")
 
-    //Mock Test
+    // Mock Test
     testImplementation("io.mockk:mockk:1.13.7")
     androidTestImplementation("io.mockk:mockk-android:1.13.7")
 
